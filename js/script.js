@@ -8,11 +8,12 @@ $(document).ready(function() {
     $("#temp_select").hide();
     $("#song_select").show();
     $("#sort").show();
-    // $("#obscure").show();
     $("#Sub").hide();
     $("#creation_list").hide();
     $("#act").hide();
     $("#act_list").hide();
+    $("#product_select").hide();
+    $("#sort1").hide();
 });
 // Show dropdown list according to the id.
 $("#songs_select").change(function() {
@@ -21,20 +22,47 @@ $("#songs_select").change(function() {
     console.log(control);
     if (control.attr("id") == $("#lidilID")) {
         console.log("in if loops");
+        $("#product_select").hide();
         $("#temp_select").hide();
         $("#song_select").show();
         $("#sort").show();
         // $("#obscure").show();
 
-    } else {
+    } else if(control.attr("id") == $("#lidilID")) {
         console.log("in if else loops");
+        $("#product_select").show();
+        $("#sort1").show();
+
+    } else {
+        $("#product_select").hide();
         $("#temp_select").show();
         $("#song_select").hide();
         $("#sort").hide();
-        // $("#obscure").hide();
+        $("#product_select").hide();
+        $("#sort1").hide();
+
 
     }
 });
+
+
+// $("#product_select").change(function() {
+//     console.log("functiomn");
+//     var control = $(this);
+//     console.log(control);
+//     if (control.attr("id") == $("#PT")) {
+//         console.log("in if loops");
+//         $("#product_select").show();
+//         $("#sort1").show();
+//         // $("#obscure").show();
+//
+//     } else {
+//         console.log("in if else loops");
+//         $("#product_select").hide();
+//         $("#sort1").hide();
+//
+//     }
+// });
 
 //Show depended dropdown according to the option.
 $("#song_select").change(function() {
@@ -194,20 +222,17 @@ $('#songs_select').bind('change', function() {
                 {
                     text: 'Info Only',
                     values: [6.00],
-                    backgroundColor: '#7f7f7f'
+                    backgroundColor: '#c7c7c7'
                 },
-
-
-
                 {
                     values: [15.00],
                     text: 'Kid Fail',
-                    backgroundColor: '#D62728'
+                    backgroundColor: '#ff9896'
                 },
                 {
                     text: 'Non-detect Pass',
                     values: [10.00],
-                    backgroundColor: '#2CA02C'
+                    backgroundColor: '#98df8a'
                 },
 
                 {

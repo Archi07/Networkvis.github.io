@@ -550,6 +550,11 @@ $ ->
     d3.json "data/#{songFile}", (json) ->
       myNetwork.updateData(json)
 
+  $("#product_select").on "change", (e) ->
+    songFile = $(this).val()
+    d3.json "data/#{songFile}", (json) ->
+      myNetwork.updateData(json)
+
   $("#act_list").on "change", (e) ->
     songFile = $(this).val()
     d3.json "data/#{songFile}", (json) ->

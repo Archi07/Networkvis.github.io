@@ -30,12 +30,19 @@ $("#songs_select").change(function() {
         $("#sort").show();
         // $("#obscure").show();
 
+<<<<<<< HEAD
     } else if($(control.attr("id") == $("#PT"))) {
         console.log("in if else loops");
         $("#product_select").show();
         $("#sort1").show();
         $("#song_select").hide();
         $("#sort").hide();
+=======
+    } else if(control.attr("id") == $("#lidilID")) {
+        console.log("in if else loops");
+        $("#product_select").show();
+        $("#sort1").show();
+>>>>>>> master
 
     } else {
         $("#product_select").hide();

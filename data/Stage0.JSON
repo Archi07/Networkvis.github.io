@@ -23,7 +23,7 @@
     },
     {
       "match": 0.292092,
-      "name": "ABC Toys.",
+      "name": "ABC Dragon Toys.",
       "artist": "Invitation",
       "id": "no1",
       "playcount": 757575,
@@ -44,7 +44,7 @@
     },
     {
       "match": 0.12233,
-      "name": "TP2",
+      "name": "Paper Mate",
       "artist": "Invitation",
       "id": "no3",
       "playcount": 757575,
@@ -54,7 +54,7 @@
     },
     {
       "match": 0.292092,
-      "name": "TP3",
+      "name": "ACME,inc.",
       "artist": "Invitation",
       "id": "no4",
       "playcount": 757575,
@@ -64,7 +64,7 @@
     },
     {
       "match": 0.12233,
-      "name": "TP4",
+      "name": "Landmark",
       "artist": "Invitation",
       "id": "no5",
       "playcount": 757575,
@@ -74,7 +74,7 @@
     },
     {
       "match": 0.12233,
-      "name": "TP5",
+      "name": "AGM",
       "artist": "Invitation",
       "id": "no6",
       "playcount": 757575,
@@ -85,7 +85,7 @@
     },
     {
       "match": 0.292092,
-      "name": "TP6",
+      "name": "Komoda, inc.",
       "artist": "Invitation",
       "id": "no7",
       "playcount": 757575,
@@ -95,7 +95,7 @@
     },
     {
       "match": 0.12233,
-      "name": "TP7",
+      "name": "Apple Mac",
       "artist": "Invitation",
       "id": "no8",
       "playcount": 757575,
@@ -105,7 +105,7 @@
     },
     {
       "match": 0.12233,
-      "name": "TP8",
+      "name": "Sumsung",
       "artist": "Invitation",
       "id": "no9",
       "playcount": 757575,
@@ -115,7 +115,7 @@
     },
     {
       "match": 0.292092,
-      "name": "TP9",
+      "name": "Kleenex",
       "artist": "Invitation",
       "id": "no10",
       "playcount": 757575,
@@ -125,7 +125,7 @@
     },
     {
       "match": 0.12233,
-      "name": "TP10",
+      "name": "PriceDepot",
       "artist": "Invitation",
       "id": "no11",
       "playcount": 757575,
@@ -205,17 +205,17 @@
     },
     {
       "match": 0.292092,
-      "name": "TP18",
+      "name": "Trading Partner",
       "artist": "Invitation",
       "id": "no19",
       "playcount": 757575,
-      "Email": " cvx@gmail.com",
+      "Email": " Abc@gmail.com",
       "Status": "Not sent",
       "TPStatus": "Open"
     },
     {
       "match": 0.12233,
-      "name": "TP19",
+      "name": "webStrom",
       "artist": "Invitation",
       "id": "no20",
       "playcount": 757575,
@@ -225,7 +225,7 @@
     },
     {
       "match": 0.12233,
-      "name": "TP20",
+      "name": "Product, Inc.",
       "artist": "Invitation",
       "id": "no21",
       "playcount": 757575,
